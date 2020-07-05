@@ -1,6 +1,8 @@
 {
-  "item.progexpansion.copper_bar": "Copper Bar",
+  "item.progexpansion.copper_bar": "Copper Ingot",
+  "item.progexpansion.steel_bar": "Steel Ingot",
   "block.progexpansion.copper_ore": "Copper Ore",
   "block.progexpansion.copper_block": "Block of Copper",
+  "block.progexpansion.steel_block": "Block of Steel",
   "itemGroup.progExpansion": "Progression Expansion"
 }

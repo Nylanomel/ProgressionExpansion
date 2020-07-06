@@ -5,8 +5,7 @@ import com.nylanomel.progressionexpansion.blocks.*;
 import com.nylanomel.progressionexpansion.items.ItemBase;
 import com.nylanomel.progressionexpansion.tools.ModItemTier;
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -51,6 +50,34 @@ public class RegistryHandler {
     public static final RegistryObject<Item> TRUE_SILVER_ORE_BLOCK_ITEM = ITEMS.register("true_silver_ore", () -> new BlockItemBase(TRUE_SILVER_ORE_BLOCK.get()));
     public static final RegistryObject<Item> TRUE_SILVER_BLOCK_ITEM = ITEMS.register("true_silver_block", () -> new BlockItemBase(TRUE_SILVER_BLOCK.get()));
     // Tools
-    public static final RegistryObject<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () ->
-            new PickaxeItem(ModItemTier.COPPER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(ModItemTier.COPPER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<AxeItem> COPPER_AXE = ITEMS.register("copper_axe", () -> new AxeItem(ModItemTier.COPPER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ModItemTier.COPPER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<SwordItem> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ModItemTier.COPPER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<HoeItem> COPPER_HOE = ITEMS.register("copper_hoe", () -> new HoeItem(ModItemTier.COPPER, 2, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<PickaxeItem> SILVER_PICKAXE = ITEMS.register("silver_pickaxe", () -> new PickaxeItem(ModItemTier.SILVER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<AxeItem> SILVER_AXE = ITEMS.register("silver_axe", () -> new AxeItem(ModItemTier.SILVER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<ShovelItem> SILVER_SHOVEL = ITEMS.register("silver_shovel", () -> new ShovelItem(ModItemTier.SILVER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<SwordItem> SILVER_SWORD = ITEMS.register("silver_sword", () -> new SwordItem(ModItemTier.SILVER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<HoeItem> SILVER_HOE = ITEMS.register("silver_hoe", () -> new HoeItem(ModItemTier.SILVER, 2, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<PickaxeItem> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(ModItemTier.STEEL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<AxeItem> STEEL_AXE = ITEMS.register("steel_axe", () -> new AxeItem(ModItemTier.STEEL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<ShovelItem> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(ModItemTier.STEEL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword", () -> new SwordItem(ModItemTier.STEEL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<HoeItem> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(ModItemTier.STEEL, 2, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<PickaxeItem> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe", () -> new PickaxeItem(ModItemTier.COBALT, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<AxeItem> COBALT_AXE = ITEMS.register("cobalt_axe", () -> new AxeItem(ModItemTier.COBALT, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<ShovelItem> COBALT_SHOVEL = ITEMS.register("cobalt_shovel", () -> new ShovelItem(ModItemTier.COBALT, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<SwordItem> COBALT_SWORD = ITEMS.register("cobalt_sword", () -> new SwordItem(ModItemTier.COBALT, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<HoeItem> COBALT_HOE = ITEMS.register("cobalt_hoe", () -> new HoeItem(ModItemTier.COBALT, 2, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<PickaxeItem> MYTHRIL_PICKAXE = ITEMS.register("mythril_pickaxe", () -> new PickaxeItem(ModItemTier.MYTHRIL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<AxeItem> MYTHRIL_AXE = ITEMS.register("mythril_axe", () -> new AxeItem(ModItemTier.MYTHRIL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<ShovelItem> MYTHRIL_SHOVEL = ITEMS.register("mythril_shovel", () -> new ShovelItem(ModItemTier.MYTHRIL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<SwordItem> MYTHRIL_SWORD = ITEMS.register("mythril_sword", () -> new SwordItem(ModItemTier.MYTHRIL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<HoeItem> MYTHRIL_HOE = ITEMS.register("mythril_hoe", () -> new HoeItem(ModItemTier.MYTHRIL, 2, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<PickaxeItem> TRUE_SILVER_PICKAXE = ITEMS.register("true_silver_pickaxe", () -> new PickaxeItem(ModItemTier.TRUE_SILVER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<AxeItem> TRUE_SILVER_AXE = ITEMS.register("true_silver_axe", () -> new AxeItem(ModItemTier.TRUE_SILVER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<ShovelItem> TRUE_SILVER_SHOVEL = ITEMS.register("true_silver_shovel", () -> new ShovelItem(ModItemTier.TRUE_SILVER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<SwordItem> TRUE_SILVER_SWORD = ITEMS.register("true_silver_sword", () -> new SwordItem(ModItemTier.TRUE_SILVER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<HoeItem> TRUE_SILVER_HOE = ITEMS.register("true_silver_hoe", () -> new HoeItem(ModItemTier.TRUE_SILVER, 2, new Item.Properties().group(ProgressionExpansion.TAB)));
 }

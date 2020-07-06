@@ -3,8 +3,10 @@ package com.nylanomel.progressionexpansion.util;
 import com.nylanomel.progressionexpansion.ProgressionExpansion;
 import com.nylanomel.progressionexpansion.blocks.*;
 import com.nylanomel.progressionexpansion.items.ItemBase;
+import com.nylanomel.progressionexpansion.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -48,4 +50,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> MYTHRIL_BLOCK_ITEM = ITEMS.register("mythril_block", () -> new BlockItemBase(MYTHRIL_BLOCK.get()));
     public static final RegistryObject<Item> TRUE_SILVER_ORE_BLOCK_ITEM = ITEMS.register("true_silver_ore", () -> new BlockItemBase(TRUE_SILVER_ORE_BLOCK.get()));
     public static final RegistryObject<Item> TRUE_SILVER_BLOCK_ITEM = ITEMS.register("true_silver_block", () -> new BlockItemBase(TRUE_SILVER_BLOCK.get()));
+    // Tools
+    public static final RegistryObject<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () ->
+            new PickaxeItem(ModItemTier.COPPER, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
 }

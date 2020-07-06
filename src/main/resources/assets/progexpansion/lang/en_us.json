@@ -1,8 +1,17 @@
 {
   "item.progexpansion.copper_bar": "Copper Ingot",
   "item.progexpansion.steel_bar": "Steel Ingot",
+  "item.progexpansion.cobalt_bar": "Cobalt Ingot",
+  "item.progexpansion.mythril_bar": "Mythril Ingot",
+  "item.progexpansion.true_silver_bar": "True Silver Ingot",
   "block.progexpansion.copper_ore": "Copper Ore",
   "block.progexpansion.copper_block": "Block of Copper",
   "block.progexpansion.steel_block": "Block of Steel",
+  "block.progexpansion.cobalt_ore": "Cobalt Ore",
+  "block.progexpansion.cobalt_block": "Block of Cobalt",
+  "block.progexpansion.mythril_ore": "Mythril Ore",
+  "block.progexpansion.mythril_block": "Block of Mythril",
+  "block.progexpansion.true_silver_ore": "True Silver Ore",
+  "block.progexpansion.true_silver_block": "Block of True Silver",
   "itemGroup.progExpansion": "Progression Expansion"
 }

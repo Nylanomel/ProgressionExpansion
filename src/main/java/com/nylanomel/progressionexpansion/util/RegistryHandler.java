@@ -62,7 +62,7 @@ public class RegistryHandler {
     public static final RegistryObject<HoeItem> SILVER_HOE = ITEMS.register("silver_hoe", () -> new HoeItem(ModItemTier.SILVER, 2, new Item.Properties().group(ProgressionExpansion.TAB)));
     public static final RegistryObject<PickaxeItem> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(ModItemTier.STEEL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
     public static final RegistryObject<AxeItem> STEEL_AXE = ITEMS.register("steel_axe", () -> new AxeItem(ModItemTier.STEEL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
-    public static final RegistryObject<ShovelItem> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(ModItemTier.STEEL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    public static final RegistryObject<ShovelItem> STEEL_SHOVEL = ITEMS.register("steel_shovel.json", () -> new ShovelItem(ModItemTier.STEEL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
     public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword", () -> new SwordItem(ModItemTier.STEEL, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
     public static final RegistryObject<HoeItem> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(ModItemTier.STEEL, 2, new Item.Properties().group(ProgressionExpansion.TAB)));
     public static final RegistryObject<PickaxeItem> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe", () -> new PickaxeItem(ModItemTier.COBALT, 2, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));

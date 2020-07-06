@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "iron_ingot"
+  },
+  "result": "progexpansion:steel_bar",
+  "experience": 1.0,
+  "cookingtime": 200
+}

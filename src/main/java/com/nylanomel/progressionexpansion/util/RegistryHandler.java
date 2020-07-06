@@ -19,6 +19,7 @@ public class RegistryHandler {
     }
     // Items
     public static final RegistryObject<Item> COPPER_BAR = ITEMS.register("copper_bar", ItemBase::new);
+    public static final RegistryObject<Item> SILVER_BAR = ITEMS.register("silver_bar", ItemBase::new);
     public static final RegistryObject<Item> STEEL_BAR = ITEMS.register("steel_bar", ItemBase::new);
     public static final RegistryObject<Item> COBALT_BAR = ITEMS.register("cobalt_bar", ItemBase::new);
     public static final RegistryObject<Item> MYTHRIL_BAR = ITEMS.register("mythril_bar", ItemBase::new);
@@ -26,6 +27,8 @@ public class RegistryHandler {
     // Blocks
     public static final RegistryObject<Block> COPPER_ORE_BLOCK = BLOCKS.register("copper_ore", CopperOreBlock::new);
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block", CopperBlock::new);
+    public static final RegistryObject<Block> SILVER_ORE_BLOCK = BLOCKS.register("silver_ore", SilverOreBlock::new);
+    public static final RegistryObject<Block> SILVER_BLOCK = BLOCKS.register("silver_block", SilverBlock::new);
     public static final RegistryObject<Block> STEEL_BLOCK = BLOCKS.register("steel_block", SteelBlock::new);
     public static final RegistryObject<Block> COBALT_ORE_BLOCK = BLOCKS.register("cobalt_ore", CobaltOreBlock::new);
     public static final RegistryObject<Block> COBALT_BLOCK = BLOCKS.register("cobalt_block", CobaltBlock::new);
@@ -36,6 +39,8 @@ public class RegistryHandler {
     // Block Items
     public static final RegistryObject<Item> COPPER_ORE_BLOCK_ITEM = ITEMS.register("copper_ore", () -> new BlockItemBase(COPPER_ORE_BLOCK.get()));
     public static final RegistryObject<Item> COPPER_BLOCK_ITEM = ITEMS.register("copper_block", () -> new BlockItemBase(COPPER_BLOCK.get()));
+    public static final RegistryObject<Item> SILVER_ORE_BLOCK_ITEM = ITEMS.register("silver_ore", () -> new BlockItemBase(SILVER_ORE_BLOCK.get()));
+    public static final RegistryObject<Item> SILVER_BLOCK_ITEM = ITEMS.register("silver_block", () -> new BlockItemBase(SILVER_BLOCK.get()));
     public static final RegistryObject<Item> STEEL_BLOCK_ITEM = ITEMS.register("steel_block", () -> new BlockItemBase(STEEL_BLOCK.get()));
     public static final RegistryObject<Item> COBALT_ORE_BLOCK_ITEM = ITEMS.register("cobalt_ore", () -> new BlockItemBase(COBALT_ORE_BLOCK.get()));
     public static final RegistryObject<Item> COBALT_BLOCK_ITEM = ITEMS.register("cobalt_block", () -> new BlockItemBase(COBALT_BLOCK.get()));

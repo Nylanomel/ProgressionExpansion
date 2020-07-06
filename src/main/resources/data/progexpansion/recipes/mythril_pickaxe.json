@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "xx",
-    "xy",
-    " y"
+    "xxx",
+    " y ",
+    " y "
   ],
   "key":
   {
     "x":
     {
-      "item": "progexpansion:steel_bar"
+      "item": "progexpansion:mythril_bar"
     },
     "y":
     {
@@ -19,7 +19,7 @@
   },
   "result":
   {
-    "item": "progexpansion:steel_axe",
+    "item": "progexpansion:mythril_pickaxe",
     "count": 1
   }
 }

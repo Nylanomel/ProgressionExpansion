@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "xx ",
-    " y ",
-    " y "
+    "xx",
+    " y",
+    " y"
   ],
   "key":
   {
     "x":
     {
-      "item": "progexpansion:steel_hoe"
+      "item": "progexpansion:steel_bar"
     },
     "y":
     {
@@ -19,7 +19,7 @@
   },
   "result":
   {
-    "item": "progexpansion:steel_pickaxe",
+    "item": "progexpansion:steel_hoe",
     "count": 1
   }
 }

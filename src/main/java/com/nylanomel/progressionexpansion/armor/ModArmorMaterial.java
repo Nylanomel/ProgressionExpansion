@@ -15,7 +15,38 @@ import java.util.function.Supplier;
 public enum ModArmorMaterial implements IArmorMaterial {
     COPPER("copper", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.COPPER_HELMET.get());
+    }),
+    SILVER("silver", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.SILVER_HELMET.get());
+    }),
+    STEEL("steel", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.STEEL_HELMET.get());
+    }),
+    COBALT("cobalt", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.COBALT_HELMET.get());
+    }),
+    MYTHRIL("mythril", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.MYTHRIL_HELMET.get());
+    }),
+    TRUE_SILVER("true_silver", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.TRUE_SILVER_HELMET.get());
+    }),
+    DRACONIC_STEEL("draconic_steel", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.DRACONIC_STEEL_HELMET.get());
+    }),
+    ENDRIL("endril", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.ENDRIL_HELMET.get());
+    }),
+    CHARGED_END_STONE("charged_end_stone", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.CHARGED_END_STONE_HELMET.get());
+    }),
+    PURE_PURPUR("pure_purpur", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.PURE_PURPUR_HELMET.get());
+    }),
+    ADAMANTITE("adamantite", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(RegistryHandler.ADAMANTITE_HELMET.get());
     });
+
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};
     private final String name;

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "x x",
+    ""
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:endril_bar"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:endril_boots",
+    "count": 1
+  }
+}

@@ -5,6 +5,7 @@ import com.nylanomel.progressionexpansion.blocks.*;
 import com.nylanomel.progressionexpansion.items.ItemBase;
 import com.nylanomel.progressionexpansion.tools.ModItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -217,4 +218,9 @@ public class RegistryHandler {
                 () -> new SwordItem(ModItemTier.ADAMANTITE, 4, -2.4F, new Item.Properties().group(ProgressionExpansion.TAB)));
         public static final RegistryObject<HoeItem> ADAMANTITE_HOE = ITEMS.register("adamantite_hoe",
                 () -> new HoeItem(ModItemTier.ADAMANTITE, -1.0F, new Item.Properties().group(ProgressionExpansion.TAB)));
+    // ARMOR
+        // COPPER
+        public static final RegistryObject<ArmorItem> COPPER_HELMET = ITEMS.register("copper_helmet", () ->
+            new ArmorItem(ModItemTier.COPPER, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+
 }

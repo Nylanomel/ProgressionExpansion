@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:mythril_bar"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:mythril_leggings",
+    "count": 1
+  }
+}

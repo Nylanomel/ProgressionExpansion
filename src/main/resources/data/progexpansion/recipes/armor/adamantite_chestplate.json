@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:adamantite_bar"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:adamantite_chestplate",
+    "count": 1
+  }
+}

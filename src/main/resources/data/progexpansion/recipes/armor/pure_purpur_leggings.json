@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:pure_purpur_bar"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:pure_purpur_leggings",
+    "count": 1
+  }
+}

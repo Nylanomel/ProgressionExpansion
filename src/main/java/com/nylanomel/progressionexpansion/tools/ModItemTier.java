@@ -1,6 +1,7 @@
 package com.nylanomel.progressionexpansion.tools;
 
 import com.nylanomel.progressionexpansion.util.RegistryHandler;
+import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 

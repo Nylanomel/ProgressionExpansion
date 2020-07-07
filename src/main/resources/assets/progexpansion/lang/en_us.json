@@ -81,6 +81,61 @@
   "item.progexpansion.adamantite_axe": "Adamantite Axe",
   "item.progexpansion.adamantite_hoe": "Adamantite Hoe",
 
+  "item.progexpansion.copper_helmet": "Copper Helmet",
+  "item.progexpansion.copper_chestplate": "Copper Chestplate",
+  "item.progexpansion.copper_leggings": "Copper Leggings",
+  "item.progexpansion.copper_boots": "Copper Boots",
+
+  "item.progexpansion.silver_helmet": "Silver Helmet",
+  "item.progexpansion.silver_chestplate": "Silver Chestplate",
+  "item.progexpansion.silver_leggings": "Silver Leggings",
+  "item.progexpansion.silver_boots": "Silver Boots",
+
+  "item.progexpansion.steel_helmet": "Steel Helmet",
+  "item.progexpansion.steel_chestplate": "Steel Chestplate",
+  "item.progexpansion.steel_leggings": "Steel Leggings",
+  "item.progexpansion.steel_boots": "Steel Boots",
+
+  "item.progexpansion.cobalt_helmet": "Cobalt Helmet",
+  "item.progexpansion:cobalt_chestplate": "Cobalt Chestplate",
+  "item.progexpansion:cobalt_leggings": "Cobalt Leggings",
+  "item.progexpansion:cobalt_boots": "Cobalt Boots",
+
+  "item.progexpansion:mythril_helmet": "Mythril Helmet",
+  "item.progexpansion.mythril_chestplate": "Mythril Chestplate",
+  "item.progexpansion.mythril_leggings": "Mythril Leggings",
+  "item.progexpansion.mythril_boots": "Mythril Boots",
+
+  "item.progexpansion.true_silver_helmet": "True Silver Helmet",
+  "item.progexpansion.true_silver_chestplate": "True Silver Chestplate",
+  "item.progexpansion.true_silver_leggings": "True Silver Leggings",
+  "item.progexpansion.true_silver_boots": "True Silver Boots",
+
+  "item.progexpansion.draconic_steel_helmet": "Draconic Steel Helmet",
+  "item.progexpansion.draconic_steel_chestplate": "Draconic Steel Chestplate",
+  "item.progexpansion.draconic_steel_leggings": "Draconic Steel Leggings",
+  "item.progexpansion.draconic_steel_boots": "Draconic Steel Boots",
+
+  "item.progexpansion.endril_helmet": "Endril Helmet",
+  "item.progexpansion.endril_chestplate": "Endril Chestplate",
+  "item.progexpansion.endril_leggings": "Endril Leggings",
+  "item.progexpansion.endril_boots": "Endril Boots",
+
+  "item.progexpansion.charged_end_stone_helmet": "Charged End Stone Helmet",
+  "item.progexpansion.charged_end_stone_chestplate": "Charged End Stone Chestplate",
+  "item.progexpansion.charged_end_stone_leggings": "Charged End Stone Leggings",
+  "item.progexpansion.charged_end_stone_boots": "Charged End Stone Boots",
+
+  "item.progexpansion.pure_purpur_helmet": "Pure Purpur Helmet",
+  "item.progexpansion.pure_purpur_chestplate": "Pure Purpur Chestplate",
+  "item.progexpansion.pure_purpur_leggings": "Pure Purpur Leggings",
+  "item.progexpansion.pure_purpur_boots": "Pure Purpur Boots",
+
+  "item.progexpansion.adamantite_helmet": "Adamantite Helmet",
+  "item.progexpansion.adamantite_chestplate": "Adamantite Chestplate",
+  "item.progexpansion.adamantite_leggings": "Adamantite Leggings",
+  "item.progexpansion.adamantite_boots": "Adamantite Boots",
+
   "block.progexpansion.copper_ore": "Copper Ore",
   "block.progexpansion.silver_ore": "Silver Ore",
   "block.progexpansion.cobalt_ore": "Cobalt Ore",

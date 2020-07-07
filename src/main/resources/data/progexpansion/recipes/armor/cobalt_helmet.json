@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    ""
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:cobalt_bar"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:cobalt_helmet",
+    "count": 1
+  }
+}

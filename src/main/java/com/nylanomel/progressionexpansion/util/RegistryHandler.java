@@ -224,10 +224,100 @@ public class RegistryHandler {
         public static final RegistryObject<ArmorItem> COPPER_HELMET = ITEMS.register("copper_helmet", () ->
             new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
         public static final RegistryObject<ArmorItem> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () ->
-            new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+                new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
         public static final RegistryObject<ArmorItem> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () ->
-            new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+                new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
         public static final RegistryObject<ArmorItem> COPPER_BOOTS = ITEMS.register("copper_boots", () ->
-            new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
-
+                new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // SILVER
+        public static final RegistryObject<ArmorItem> SILVER_HELMET = ITEMS.register("silver_helmet", () ->
+                new ArmorItem(ModArmorMaterial.SILVER, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate", () ->
+                new ArmorItem(ModArmorMaterial.SILVER, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> SILVER_LEGGINGS = ITEMS.register("silver_leggings", () ->
+                new ArmorItem(ModArmorMaterial.SILVER, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> SILVER_BOOTS = ITEMS.register("silver_boots", () ->
+                new ArmorItem(ModArmorMaterial.SILVER, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // STEEL
+        public static final RegistryObject<ArmorItem> STEEL_HELMET = ITEMS.register("steel_helmet", () ->
+                new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> STEEL_CHESTPLATE = ITEMS.register("steel_chestplate", () ->
+                new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> STEEL_LEGGINGS = ITEMS.register("steel_leggings", () ->
+                new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> STEEL_BOOTS = ITEMS.register("steel_boots", () ->
+                new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // COBALT
+        public static final RegistryObject<ArmorItem> COBALT_HELMET = ITEMS.register("cobalt_helmet", () ->
+                new ArmorItem(ModArmorMaterial.COBALT, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> COBALT_CHESTPLATE = ITEMS.register("cobalt_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.COBALT, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> COBALT_LEGGINGS = ITEMS.register("cobalt_leggings", () ->
+            new ArmorItem(ModArmorMaterial.COBALT, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> COBALT_BOOTS = ITEMS.register("cobalt_boots", () ->
+            new ArmorItem(ModArmorMaterial.COBALT, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // MYTHRIL
+        public static final RegistryObject<ArmorItem> MYTHRIL_HELMET = ITEMS.register("mythril_helmet", () ->
+                new ArmorItem(ModArmorMaterial.MYTHRIL, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> MYTHRIL_CHESTPLATE = ITEMS.register("mythril_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.MYTHRIL, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> MYTHRIL_LEGGINGS = ITEMS.register("mythril_leggings", () ->
+            new ArmorItem(ModArmorMaterial.MYTHRIL, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> MYTHRIL_BOOTS = ITEMS.register("mythril_boots", () ->
+            new ArmorItem(ModArmorMaterial.MYTHRIL, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // TRUE SILVER
+        public static final RegistryObject<ArmorItem> TRUE_SILVER_HELMET = ITEMS.register("true_silver_helmet", () ->
+                new ArmorItem(ModArmorMaterial.TRUE_SILVER, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> TRUE_SILVER_CHESTPLATE = ITEMS.register("true_silver_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.TRUE_SILVER, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> TRUE_SILVER_LEGGINGS = ITEMS.register("true_silver_leggings", () ->
+            new ArmorItem(ModArmorMaterial.TRUE_SILVER, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> TRUE_SILVER_BOOTS = ITEMS.register("true_silver_boots", () ->
+            new ArmorItem(ModArmorMaterial.TRUE_SILVER, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // DRACONIC STEEL
+        public static final RegistryObject<ArmorItem> DRACONIC_STEEL_HELMET = ITEMS.register("draconic_steel_helmet", () ->
+                new ArmorItem(ModArmorMaterial.DRACONIC_STEEL, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> DRACONIC_STEEL_CHESTPLATE = ITEMS.register("draconic_steel_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.DRACONIC_STEEL, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> DRACONIC_STEEL_LEGGINGS = ITEMS.register("draconic_steel_leggings", () ->
+            new ArmorItem(ModArmorMaterial.DRACONIC_STEEL, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> DRACONIC_STEEL_BOOTS = ITEMS.register("draconic_steel_boots", () ->
+            new ArmorItem(ModArmorMaterial.DRACONIC_STEEL, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // ENDRIL
+        public static final RegistryObject<ArmorItem> ENDRIL_HELMET = ITEMS.register("endril_helmet", () ->
+                new ArmorItem(ModArmorMaterial.ENDRIL, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> ENDRIL_CHESTPLATE = ITEMS.register("endril_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.ENDRIL, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> ENDRIL_LEGGINGS = ITEMS.register("endril_leggings", () ->
+            new ArmorItem(ModArmorMaterial.ENDRIL, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> ENDRIL_BOOTS = ITEMS.register("endril_boots", () ->
+            new ArmorItem(ModArmorMaterial.ENDRIL, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // CHARGED END STONE
+        public static final RegistryObject<ArmorItem> CHARGED_END_STONE_HELMET = ITEMS.register("charged_end_stone_helmet", () ->
+                new ArmorItem(ModArmorMaterial.CHARGED_END_STONE, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> CHARGED_END_STONE_CHESTPLATE = ITEMS.register("charged_end_stone_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.CHARGED_END_STONE, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> CHARGED_END_STONE_LEGGINGS = ITEMS.register("charged_end_stone_leggings", () ->
+            new ArmorItem(ModArmorMaterial.CHARGED_END_STONE, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> CHARGED_END_STONE_BOOTS = ITEMS.register("charged_end_stone_boots", () ->
+            new ArmorItem(ModArmorMaterial.CHARGED_END_STONE, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // PURE PURPUR
+        public static final RegistryObject<ArmorItem> PURE_PURPUR_HELMET = ITEMS.register("pure_purpur_helmet", () ->
+                new ArmorItem(ModArmorMaterial.PURE_PURPUR, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> PURE_PURPUR_CHESTPLATE = ITEMS.register("pure_purpur_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.PURE_PURPUR, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> PURE_PURPUR_LEGGINGS = ITEMS.register("pure_purpur_leggings", () ->
+            new ArmorItem(ModArmorMaterial.CHARGED_END_STONE, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> PURE_PURPUR_BOOTS = ITEMS.register("pure_purpur_boots", () ->
+            new ArmorItem(ModArmorMaterial.PURE_PURPUR, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // ADAMANTITE
+        public static final RegistryObject<ArmorItem> ADAMANTITE_HELMET = ITEMS.register("adamantite_helmet", () ->
+                new ArmorItem(ModArmorMaterial.ADAMANTITE, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> ADAMANTITE_CHESTPLATE = ITEMS.register("adamantite_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.ADAMANTITE, EquipmentSlotType.CHEST, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> ADAMANTITE_LEGGINGS = ITEMS.register("adamantite_leggings", () ->
+            new ArmorItem(ModArmorMaterial.ADAMANTITE, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> ADAMANTITE_BOOTS = ITEMS.register("adamantite_boots", () ->
+            new ArmorItem(ModArmorMaterial.ADAMANTITE, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // NEXT???
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "progexpansion:endril_ore"
+  },
+  "result": "progexpansion:endril_bar",
+  "experience": 2.8,
+  "cookingtime": 200
+}

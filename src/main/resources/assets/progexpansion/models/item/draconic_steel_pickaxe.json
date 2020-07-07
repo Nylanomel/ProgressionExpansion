@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "progexpansion:items/draconic_steel_pickaxe"
+  }
+
+}

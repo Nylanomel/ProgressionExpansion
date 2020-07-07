@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:copper_bar"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:copper_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:silver_bar"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:silver_boots",
+    "count": 1
+  }
+}

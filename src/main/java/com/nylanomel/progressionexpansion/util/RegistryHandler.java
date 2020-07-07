@@ -1,6 +1,7 @@
 package com.nylanomel.progressionexpansion.util;
 
 import com.nylanomel.progressionexpansion.ProgressionExpansion;
+import com.nylanomel.progressionexpansion.armor.ModArmorMaterial;
 import com.nylanomel.progressionexpansion.blocks.*;
 import com.nylanomel.progressionexpansion.items.ItemBase;
 import com.nylanomel.progressionexpansion.tools.ModItemTier;
@@ -221,6 +222,12 @@ public class RegistryHandler {
     // ARMOR
         // COPPER
         public static final RegistryObject<ArmorItem> COPPER_HELMET = ITEMS.register("copper_helmet", () ->
-            new ArmorItem(ModItemTier.COPPER, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+            new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () ->
+            new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () ->
+            new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
+        public static final RegistryObject<ArmorItem> COPPER_BOOTS = ITEMS.register("copper_boots", () ->
+            new ArmorItem(ModArmorMaterial.COPPER, EquipmentSlotType.HEAD, new Item.Properties().group(ProgressionExpansion.TAB)));
 
 }

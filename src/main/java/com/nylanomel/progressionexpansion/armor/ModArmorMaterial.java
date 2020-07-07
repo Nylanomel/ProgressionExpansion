@@ -15,8 +15,8 @@ import java.util.function.Supplier;
 public enum ModArmorMaterial implements IArmorMaterial {
     COPPER("copper", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.COPPER_HELMET.get());
-    });
-    /*SILVER("silver", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    }),
+    SILVER("silver", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.SILVER_HELMET.get());
     }),
     STEEL("steel", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
@@ -45,7 +45,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
     }),
     ADAMANTITE("adamantite", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.ADAMANTITE_HELMET.get());
-    });*/
+    });
 
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};

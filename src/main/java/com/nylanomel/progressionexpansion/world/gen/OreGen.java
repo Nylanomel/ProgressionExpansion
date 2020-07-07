@@ -18,6 +18,10 @@ public class OreGen {
             ConfiguredPlacement cobalt = Placement.COUNT_RANGE.configure(new CountRangeConfig(8, 0, 0, 255));
             ConfiguredPlacement mythril = Placement.COUNT_RANGE.configure(new CountRangeConfig(7, 0, 0, 255));
             ConfiguredPlacement trueSilver = Placement.COUNT_RANGE.configure(new CountRangeConfig(6, 0, 0, 255));
+            ConfiguredPlacement draconicSteel = Placement.COUNT_RANGE.configure(new CountRangeConfig(5, 0, 0, 255));
+            ConfiguredPlacement endril = Placement.COUNT_RANGE.configure(new CountRangeConfig(4, 0, 0, 255));
+            ConfiguredPlacement chargedEndStone = Placement.COUNT_RANGE.configure(new CountRangeConfig(3, 0, 0, 255));
+            ConfiguredPlacement purePurpur = Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 0, 0, 255));
             // Copper Ore
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
             Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
@@ -38,6 +42,7 @@ public class OreGen {
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
             Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK,
                     RegistryHandler.TRUE_SILVER_ORE_BLOCK.get().getDefaultState(), 4)).withPlacement(trueSilver));
+            // Draconic Steel
         }
     }
 }

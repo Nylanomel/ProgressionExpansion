@@ -69,11 +69,11 @@
   "item.progexpansion.charged_end_stone_axe": "Charged End Stone Axe",
   "item.progexpansion.charged_end_stone_hoe": "Charged End Stone Hoe",
 
-  "item.progexpansion.fractured_purpur_pickaxe": "Fractured Purpur Pickaxe",
-  "item.progexpansion.fractured_purpur_sword": "Fractured Purpur Sword",
-  "item.progexpansion.fractured_purpur_shovel": "Fractured Purpur Shovel",
-  "item.progexpansion.fractured_purpur_axe": "Fractured Purpur Axe",
-  "item.progexpansion.fractured_purpur_hoe": "Fractured Purpur Hoe",
+  "item.progexpansion.pure_purpur_pickaxe": "Pure Purpur Pickaxe",
+  "item.progexpansion.pure_purpur_sword": "Pure Purpur Sword",
+  "item.progexpansion.pure_purpur_shovel": "Pure Purpur Shovel",
+  "item.progexpansion.pure_purpur_axe": "Pure Purpur Axe",
+  "item.progexpansion.pure_purpur_hoe": "Pure Purpur Hoe",
 
   "item.progexpansion.adamantite_pickaxe": "Adamantite Pickaxe",
   "item.progexpansion.adamantite_sword": "Adamantite Sword",
@@ -89,7 +89,7 @@
   "block.progexpansion.draconic_steel_ore": "Draconic Steel Ore",
   "block.progexpansion.endril_ore": "Endril Ore",
   "block.progexpansion.charged_end_stone": "Charged End Stone",
-  "block.progexpansion.fractured_purpur": "Fractured Purpur",
+  "block.progexpansion.fractured_purpur_block": "Fractured Purpur Block",
 
   "block.progexpansion.copper_block": "Block of Copper",
   "block.progexpansion.silver_block": "Block of Silver",

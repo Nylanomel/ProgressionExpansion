@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xy",
+    " y"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:endril_bar"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:endril_axe",
+    "count": 1
+  }
+}

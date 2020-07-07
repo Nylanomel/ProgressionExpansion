@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "progexpansion:draconic_steel_block"
+    }
+  ],
+  "result":
+  {
+    "item": "progexpansion:draconic_steel_bar",
+    "count": 9
+  }
+}

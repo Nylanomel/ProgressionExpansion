@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xy",
+    " y"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:charged_end_stone_bar"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:charged_end_stone_axe",
+    "count": 1
+  }
+}

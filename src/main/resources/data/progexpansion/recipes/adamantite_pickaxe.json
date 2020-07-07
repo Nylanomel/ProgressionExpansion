@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    " y ",
+    " y "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:adamantite_bar"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:adamantite_pickaxe",
+    "count": 1
+  }
+}

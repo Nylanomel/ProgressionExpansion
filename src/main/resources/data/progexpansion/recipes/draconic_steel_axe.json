@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xy",
+    " y"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:draconic_steel_bar"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:draconic_steel_axe",
+    "count": 1
+  }
+}

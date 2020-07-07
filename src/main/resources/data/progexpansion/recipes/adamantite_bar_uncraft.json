@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "progexpansion:adamantite_block"
+    }
+  ],
+  "result":
+  {
+    "item": "progexpansion:adamantite_bar",
+    "count": 9
+  }
+}

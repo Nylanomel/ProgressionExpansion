@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xy",
+    " y"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:pure_purpur_bar"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:pure_purpur_axe",
+    "count": 1
+  }
+}

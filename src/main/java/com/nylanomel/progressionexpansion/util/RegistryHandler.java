@@ -319,4 +319,5 @@ public class RegistryHandler {
             new ArmorItem(ModArmorMaterial.ADAMANTITE, EquipmentSlotType.LEGS, new Item.Properties().group(ProgressionExpansion.TAB)));
         public static final RegistryObject<ArmorItem> ADAMANTITE_BOOTS = ITEMS.register("adamantite_boots", () ->
             new ArmorItem(ModArmorMaterial.ADAMANTITE, EquipmentSlotType.FEET, new Item.Properties().group(ProgressionExpansion.TAB)));
+        // NEXT???
 }

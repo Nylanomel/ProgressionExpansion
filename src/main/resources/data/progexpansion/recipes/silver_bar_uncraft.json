@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "progexpansion:silver_block"
+    }
+  ],
+  "result":
+  {
+    "item": "progexpansion:silver_bar",
+    "count": 9
+  }
+}

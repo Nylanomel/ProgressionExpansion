@@ -9,7 +9,7 @@ updateJSONURL="http://myurl.me/" #optional
 displayURL="http://example.com/" #optional
 logoFile="examplemod.png" #optional
 credits="" #optional
-authors="Nylanomel" #optional
+authors="Nylanomel, Pylerrr" #optional
 description='''
 A mod to increase and expand the progression of minecraft with a single mod
 '''

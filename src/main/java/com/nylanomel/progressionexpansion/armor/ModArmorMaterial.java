@@ -1,5 +1,6 @@
 package com.nylanomel.progressionexpansion.armor;
 
+import com.nylanomel.progressionexpansion.ProgressionExpansion;
 import com.nylanomel.progressionexpansion.util.RegistryHandler;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
@@ -13,37 +14,37 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
-    COPPER("copper", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    COPPER(ProgressionExpansion.MOD_ID + ":copper", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.COPPER_HELMET.get());
     }),
-    SILVER("silver", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    SILVER(ProgressionExpansion.MOD_ID + ":silver", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.SILVER_HELMET.get());
     }),
-    STEEL("steel", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    STEEL(ProgressionExpansion.MOD_ID + ":steel", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.STEEL_HELMET.get());
     }),
-    COBALT("cobalt", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    COBALT(ProgressionExpansion.MOD_ID + ":cobalt", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.COBALT_HELMET.get());
     }),
-    MYTHRIL("mythril", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    MYTHRIL(ProgressionExpansion.MOD_ID + ":mythril", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.MYTHRIL_HELMET.get());
     }),
-    TRUE_SILVER("true_silver", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    TRUE_SILVER(ProgressionExpansion.MOD_ID + ":true_silver", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.TRUE_SILVER_HELMET.get());
     }),
-    DRACONIC_STEEL("draconic_steel", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    DRACONIC_STEEL(ProgressionExpansion.MOD_ID + ":draconic_steel", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.DRACONIC_STEEL_HELMET.get());
     }),
-    ENDRIL("endril", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    ENDRIL(ProgressionExpansion.MOD_ID + ":endril", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.ENDRIL_HELMET.get());
     }),
-    CHARGED_END_STONE("charged_end_stone", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    CHARGED_END_STONE(ProgressionExpansion.MOD_ID + ":charged_end_stone", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.CHARGED_END_STONE_HELMET.get());
     }),
-    PURE_PURPUR("pure_purpur", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    PURE_PURPUR(ProgressionExpansion.MOD_ID + ":pure_purpur", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.PURE_PURPUR_HELMET.get());
     }),
-    ADAMANTITE("adamantite", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    ADAMANTITE(ProgressionExpansion.MOD_ID + ":adamantite", 15,  new int[]{1, 4, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.ADAMANTITE_HELMET.get());
     });
 

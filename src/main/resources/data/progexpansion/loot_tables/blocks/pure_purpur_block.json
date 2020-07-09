@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "progexpansion:pure_purpur_block.json"
+          "name": "progexpansion:pure_purpur_block"
         }
       ]
     }

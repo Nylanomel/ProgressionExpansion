@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "progexpansion:adamantite_block.json"
+          "name": "progexpansion:adamantite_block"
         }
       ]
     }

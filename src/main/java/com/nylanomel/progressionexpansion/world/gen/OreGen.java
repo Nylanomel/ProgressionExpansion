@@ -39,10 +39,6 @@ public class OreGen {
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
             Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK,
                     RegistryHandler.TRUE_SILVER_ORE_BLOCK.get().getDefaultState(), 4)).withPlacement(trueSilver));
-            // Draconic Steel Ore
-            biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
-            Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.byName("OBSIDIAN"),
-                    RegistryHandler.DRACONIC_STEEL_ORE_BLOCK.get().getDefaultState(), 4)).withPlacement(draconicSteel));
         }
     }
 }

@@ -56,7 +56,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
     private final int enchantability;
     private final SoundEvent soundEvent;
     private final float toughness;
-    private final LazyValue<Ingredient> repairMaterial;
+    private final Supplier<Ingredient> repairMaterial;
 
     private ModArmorMaterial(String nameIn, int maxDamageFactorIn, int[] damageReductionAmountsIn, int enchantabilityIn, SoundEvent equipSoundIn, float toughnessIn, Supplier<Ingredient> repairMaterialSupplier) {
         this.name = nameIn;
@@ -65,7 +65,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
         this.enchantability = enchantabilityIn;
         this.soundEvent = equipSoundIn;
         this.toughness = toughnessIn;
-        this.repairMaterial = new LazyValue<>(repairMaterialSupplier);
+        this.repairMaterial = repairMaterialSupplier;
     }
 
     @Override
@@ -90,7 +90,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
 
     @Override
     public Ingredient getRepairMaterial() {
-        return this.repairMaterial.getValue();
+        return this.repairMaterial.get();
     }
 
     @Override

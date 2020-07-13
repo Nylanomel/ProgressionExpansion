@@ -13,6 +13,7 @@ public class ChargedEndStoneBlock extends Block {
                 .sound(SoundType.STONE)
                 .harvestLevel(8)
                 .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

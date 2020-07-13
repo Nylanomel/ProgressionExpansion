@@ -13,6 +13,7 @@ public class MythrilBlock extends Block{
                 .sound(SoundType.METAL)
                 .harvestLevel(4)
                 .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

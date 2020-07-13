@@ -13,6 +13,7 @@ public class CobaltBlock extends Block{
                 .sound(SoundType.METAL)
                 .harvestLevel(3)
                 .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

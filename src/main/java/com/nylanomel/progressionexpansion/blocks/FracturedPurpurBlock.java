@@ -13,6 +13,7 @@ public class FracturedPurpurBlock extends Block {
                 .sound(SoundType.STONE)
                 .harvestLevel(9)
                 .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

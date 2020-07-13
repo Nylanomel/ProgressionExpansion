@@ -13,6 +13,7 @@ public class CobaltOreBlock extends Block{
                 .sound(SoundType.STONE)
                 .harvestLevel(3)
                 .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

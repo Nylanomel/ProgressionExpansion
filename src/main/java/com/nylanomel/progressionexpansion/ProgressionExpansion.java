@@ -1,7 +1,7 @@
 package com.nylanomel.progressionexpansion;
 
 import com.nylanomel.progressionexpansion.util.RegistryHandler;
-import com.nylanomel.progressionexpansion.world.gen.OreGen;
+import com.nylanomel.progressionexpansion.world.gen.ModOreGen;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,10 +33,6 @@ public class ProgressionExpansion {
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-    }
-    @SubscribeEvent
-    public static void loadCompleteEvent(FMLLoadCompleteEvent event) {
-        OreGen.generateOre();
     }
 
     public static final ItemGroup TAB = new ItemGroup("progExpansion") {

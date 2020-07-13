@@ -13,6 +13,7 @@ public class EndrilOreBlock extends Block {
                 .sound(SoundType.STONE)
                 .harvestLevel(7)
                 .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

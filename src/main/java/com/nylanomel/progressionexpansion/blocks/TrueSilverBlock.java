@@ -13,6 +13,7 @@ public class TrueSilverBlock extends Block{
                 .sound(SoundType.METAL)
                 .harvestLevel(5)
                 .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

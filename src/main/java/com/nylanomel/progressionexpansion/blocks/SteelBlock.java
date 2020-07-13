@@ -13,6 +13,7 @@ public class SteelBlock extends Block {
                 .sound(SoundType.METAL)
                 .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

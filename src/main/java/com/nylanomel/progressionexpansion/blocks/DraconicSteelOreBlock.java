@@ -13,6 +13,7 @@ public class DraconicSteelOreBlock extends Block {
                 .sound(SoundType.STONE)
                 .harvestLevel(6)
                 .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

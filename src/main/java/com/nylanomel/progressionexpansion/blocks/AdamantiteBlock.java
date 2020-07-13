@@ -9,10 +9,11 @@ public class AdamantiteBlock extends Block {
     public AdamantiteBlock() {
         super(
                 Block.Properties.create(Material.IRON)
-                        .hardnessAndResistance(5.0f, 6.0f)
-                        .sound(SoundType.METAL)
-                        .harvestLevel(10)
-                        .harvestTool(ToolType.PICKAXE)
+                .hardnessAndResistance(5.0f, 6.0f)
+                .sound(SoundType.METAL)
+                .harvestLevel(10)
+                .harvestTool(ToolType.PICKAXE)
+                .setRequiresTool()
         );
     }
 }

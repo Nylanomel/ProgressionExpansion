@@ -29,6 +29,6 @@ A mod to increase and expand the progression of minecraft with a single mod
 [[dependencies.progexpansion]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.1]"
+    versionRange="[1.15.2]"
     ordering="NONE"
     side="BOTH"

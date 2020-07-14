@@ -23,7 +23,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
     STEEL(ProgressionExpansion.MOD_ID + ":steel", 50,  new int[]{3, 6, 8, 3}, 4, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.STEEL_HELMET.get());
     }, 0.0F),
-    COBALT(ProgressionExpansion.MOD_ID + ":cobalt", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    COBALT(ProgressionExpansion.MOD_ID + ":cobalt", 30,  new int[]{3, 6, 8, 3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.COBALT_HELMET.get());
     }, 0.0F),
     MYTHRIL(ProgressionExpansion.MOD_ID + ":mythril", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {

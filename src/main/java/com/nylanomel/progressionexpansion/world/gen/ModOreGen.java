@@ -49,7 +49,7 @@ public class ModOreGen {
                 genOre(biome, 20, 0, 0, 255, OBSIDIAN, RegistryHandler.DRACONIC_STEEL_ORE_BLOCK.get().getDefaultState(), 4);
                 genOre(biome, 20, 0, 0, 255, END_STONE, RegistryHandler.ENDRIL_ORE_BLOCK.get().getDefaultState(), 4);
                 genOre(biome, 20, 0, 0, 255, END_STONE, RegistryHandler.CHARGED_END_STONE_BLOCK.get().getDefaultState(), 4);
-                genOre(biome, 20, 0, 0, 255, PURPUR, RegistryHandler.FRACTURED_PURPUR_BLOCK.get().getDefaultState(), 4);
+                genOre(biome, 20, 0, 0, 255, END_STONE, RegistryHandler.FRACTURED_PURPUR_BLOCK.get().getDefaultState(), 4);
             } else { // OVERWORLD ORE GENERATION
                 genOre(biome, 10, 12, 12, 70, STONE, RegistryHandler.COPPER_ORE_BLOCK.get().getDefaultState(), 6);
                 genOre(biome, 9, 12, 12, 70, STONE, RegistryHandler.SILVER_ORE_BLOCK.get().getDefaultState(), 6);

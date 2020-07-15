@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "progexpansion:blocks/cobalt_ore"
+    "end": "progexpansion:blocks/cobalt_ore_top",
+    "side": "progexpansion:blocks/cobalt_ore_side"
   }
 }

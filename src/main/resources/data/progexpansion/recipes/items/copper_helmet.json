@@ -9,7 +9,7 @@
   {
     "x":
     {
-      "item": "progexpansion:copper_bar"
+      "tag": "forge:ingots/copper"
     }
   },
   "result":

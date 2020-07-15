@@ -12,7 +12,7 @@ public class MythrilOreBlock extends Block{
                 .hardnessAndResistance(3.0f,3.0f)
                 .sound(SoundType.STONE)
                 .harvestLevel(4)
-                .harvestTool(ToolType.PICKAXE)
+                .harvestTool(ToolType.SHOVEL)
                 .setRequiresTool()
         );
     }

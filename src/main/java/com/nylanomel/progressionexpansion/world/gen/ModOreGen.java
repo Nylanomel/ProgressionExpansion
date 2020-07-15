@@ -32,6 +32,12 @@ public class ModOreGen {
     public static OreFeatureConfig.FillerBlockType NETHERRACK = OreFeatureConfig.FillerBlockType.create("NETHERRACK",
             "nettherrack", new BlockMatcher(Blocks.NETHERRACK));
 
+    public static OreFeatureConfig.FillerBlockType BASALT = OreFeatureConfig.FillerBlockType.create("BASALT",
+            "basalt", new BlockMatcher(Blocks.BASALT));
+
+    public static OreFeatureConfig.FillerBlockType SOUL_SOIL = OreFeatureConfig.FillerBlockType.create("SOUL_SOIL",
+            "soul_soil", new BlockMatcher(Blocks.SOUL_SOIL));
+
     public static OreFeatureConfig.FillerBlockType STONE = OreFeatureConfig.FillerBlockType.create("STONE",
             "stone", new BlockMatcher(Blocks.STONE));
 
@@ -42,8 +48,8 @@ public class ModOreGen {
     public static void generateOres(FMLLoadCompleteEvent e){
         for (Biome biome : ForgeRegistries.BIOMES){
             if(biome.getCategory() == Biome.Category.NETHER){ // NETHER ORE GENERATION
-                genOre(biome, 4, 0, 0, 255, NETHERRACK, RegistryHandler.COBALT_ORE_BLOCK.get().getDefaultState(), 6);
-                genOre(biome, 3, 0, 0, 255, NETHERRACK, RegistryHandler.MYTHRIL_ORE_BLOCK.get().getDefaultState(), 4);
+                genOre(biome, 10, 0, 0, 255, BASALT, RegistryHandler.COBALT_ORE_BLOCK.get().getDefaultState(), 6);
+                genOre(biome, 10, 0, 0, 255, SOUL_SOIL, RegistryHandler.MYTHRIL_ORE_BLOCK.get().getDefaultState(), 4);
                 genOre(biome, 2, 0, 0, 255, NETHERRACK, RegistryHandler.TRUE_SILVER_ORE_BLOCK.get().getDefaultState(), 6);
             } else if(biome.getCategory() == Biome.Category.THEEND){ // END ORE GENERATION
                 genOre(biome, 1000, 0, 0, 255, OBSIDIAN, RegistryHandler.DRACONIC_STEEL_ORE_BLOCK.get().getDefaultState(), 30);

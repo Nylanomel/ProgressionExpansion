@@ -18,28 +18,28 @@ public enum ModItemTier implements IItemTier {
     STEEL(3, 3021, 7.2F, 2.0F, 8, () -> {
         return Ingredient.fromItems(RegistryHandler.STEEL_PICKAXE.get());
     }),
-    COBALT(4, 3021, 9.0F, 3.0F, 20, () -> {
+    COBALT(4, 1921, 9.0F, 3.0F, 20, () -> {
         return Ingredient.fromItems(RegistryHandler.COBALT_PICKAXE.get());
     }),
-    MYTHRIL(5, 3906, 10.0F, 4.0F, 22, () -> {
+    MYTHRIL(5, 2906, 10.0F, 4.0F, 22, () -> {
         return Ingredient.fromItems(RegistryHandler.MYTHRIL_PICKAXE.get());
     }),
-    TRUE_SILVER(6, 4591, 11.0F, 5.0F, 24, () -> {
+    TRUE_SILVER(6, 3591, 11.0F, 5.0F, 24, () -> {
         return Ingredient.fromItems(RegistryHandler.TRUE_SILVER_PICKAXE.get());
     }),
-    DRACONIC_STEEL(7, 5791, 12.0F, 6.0F, 28, () -> {
+    DRACONIC_STEEL(7, 4791, 12.0F, 6.0F, 28, () -> {
         return Ingredient.fromItems(RegistryHandler.DRACONIC_STEEL_PICKAXE.get());
     }),
-    ENDRIL(8, 6523, 13.0F, 7.0F, 30, () -> {
+    ENDRIL(8, 5523, 13.0F, 7.0F, 30, () -> {
         return Ingredient.fromItems(RegistryHandler.ENDRIL_PICKAXE.get());
     }),
-    CHARGED_END_STONE(9, 7216, 14.0F, 8.0F, 33, () -> {
+    CHARGED_END_STONE(9, 6216, 14.0F, 8.0F, 33, () -> {
         return Ingredient.fromItems(RegistryHandler.CHARGED_END_STONE_PICKAXE.get());
     }),
-    PURE_PURPUR(10, 8021, 15.0F, 9.0F, 37, () -> {
+    PURE_PURPUR(10, 7021, 15.0F, 9.0F, 37, () -> {
         return Ingredient.fromItems(RegistryHandler.PURE_PURPUR_PICKAXE.get());
     }),
-    ADAMANTITE(11, 9325, 16.0F, 10.0F, 40, () -> {
+    ADAMANTITE(11, 8325, 16.0F, 10.0F, 40, () -> {
         return Ingredient.fromItems(RegistryHandler.ADAMANTITE_PICKAXE.get());
     });
 

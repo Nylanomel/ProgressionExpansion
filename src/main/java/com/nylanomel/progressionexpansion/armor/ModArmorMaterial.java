@@ -23,28 +23,28 @@ public enum ModArmorMaterial implements IArmorMaterial {
     STEEL(ProgressionExpansion.MOD_ID + ":steel", 50,  new int[]{3, 6, 8, 3}, 4, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.STEEL_HELMET.get());
     }, 0.0F),
-    COBALT(ProgressionExpansion.MOD_ID + ":cobalt", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    COBALT(ProgressionExpansion.MOD_ID + ":cobalt", 30,  new int[]{3, 6, 8, 3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.COBALT_HELMET.get());
     }, 0.0F),
-    MYTHRIL(ProgressionExpansion.MOD_ID + ":mythril", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    MYTHRIL(ProgressionExpansion.MOD_ID + ":mythril", 42,  new int[]{3, 6, 8, 3}, 25, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 4.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.MYTHRIL_HELMET.get());
     }, 0.0F),
-    TRUE_SILVER(ProgressionExpansion.MOD_ID + ":true_silver", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    TRUE_SILVER(ProgressionExpansion.MOD_ID + ":true_silver", 50,  new int[]{3, 6, 8, 3}, 34, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 8.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.TRUE_SILVER_HELMET.get());
     }, 0.0F),
-    DRACONIC_STEEL(ProgressionExpansion.MOD_ID + ":draconic_steel", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    DRACONIC_STEEL(ProgressionExpansion.MOD_ID + ":draconic_steel", 63,  new int[]{3, 6, 8, 3}, 40, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 10.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.DRACONIC_STEEL_HELMET.get());
     }, 0.0F),
-    ENDRIL(ProgressionExpansion.MOD_ID + ":endril", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    ENDRIL(ProgressionExpansion.MOD_ID + ":endril", 70,  new int[]{3, 6, 8, 3}, 51, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 14.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.ENDRIL_HELMET.get());
     }, 0.0F),
-    CHARGED_END_STONE(ProgressionExpansion.MOD_ID + ":charged_end_stone", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    CHARGED_END_STONE(ProgressionExpansion.MOD_ID + ":charged_end_stone", 78,  new int[]{3, 6, 8, 3}, 69, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 20.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.CHARGED_END_STONE_HELMET.get());
     }, 0.0F),
-    PURE_PURPUR(ProgressionExpansion.MOD_ID + ":pure_purpur", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    PURE_PURPUR(ProgressionExpansion.MOD_ID + ":pure_purpur", 86,  new int[]{3, 6, 8, 3}, 85, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 30.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.PURE_PURPUR_HELMET.get());
     }, 0.0F),
-    ADAMANTITE(ProgressionExpansion.MOD_ID + ":adamantite", 15,  new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 40.0F, () -> {
+    ADAMANTITE(ProgressionExpansion.MOD_ID + ":adamantite", 100,  new int[]{3, 6, 8, 3}, 100, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 40.0F, () -> {
         return Ingredient.fromItems(RegistryHandler.ADAMANTITE_HELMET.get());
     }, 0.0F);
 

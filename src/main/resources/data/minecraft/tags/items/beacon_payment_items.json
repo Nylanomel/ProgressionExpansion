@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "progexpansion:copper_bar",
+    "progexpansion:silver_bar",
+    "progexpansion:steel_bar",
+    "progexpansion:cobalt_bar",
+    "progexpansion:mythril_bar",
+    "progexpansion:true_silver_bar",
+    "progexpansion:draconic_steel_bar",
+    "progexpansion:endril_bar",
+    "progexpansion:charged_end_stone_bar",
+    "progexpansion:pure_purpur_bar",
+    "progexpansion:adamantite_bar"
+  ]
+}

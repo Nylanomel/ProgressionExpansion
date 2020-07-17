@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "progexpansion:true_silver_bar"
+    },
+    "title": {
+      "translate": "advancement.progexpansion.trueSilver.title"
+    },
+    "description": {
+      "translate": "advancement.progexpansion.trueSilver.desc"
+    }
+  },
+  "parent": "progexpansion:acquire_mythril",
+  "criteria": {
+    "mine_true_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[{
+            "item": "progexpansion:true_silver_ore",
+            "count": {
+              "minimum": 1
+            }}
+        ]
+      }
+    }
+  },
+  "requirements": [[
+    "mine_true_silver"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "progexpansion:silver_bar"
+    },
+    "title": {
+      "translate": "advancement.progexpansion.silver.title"
+    },
+    "description": {
+      "translate": "advancement.progexpansion.silver.desc"
+    }
+  },
+  "parent": "progexpansion:acquire_copper",
+  "criteria": {
+    "mine_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:silver_ore",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "mine_silver"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

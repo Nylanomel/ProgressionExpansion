@@ -1,4 +1,6 @@
 {
+  "itemGroup.progExpansion": "Progression Expansion",
+
   "item.progexpansion.copper_bar": "Copper Ingot",
   "item.progexpansion.silver_bar": "Silver Ingot",
   "item.progexpansion.steel_bar": "Steel Ingot",
@@ -158,5 +160,28 @@
   "block.progexpansion.pure_purpur_block": "Block of Pure Purpur",
   "block.progexpansion.adamantite_block": "Block of Adamantite",
 
-  "itemGroup.progExpansion": "Progression Expansion"
+  "advancement.progexpansion.root.desc": "Welcome to the world of Progression Expansion!",
+  "advancement.progexpansion.copper.desc": "Mine Copper",
+  "advancement.progexpansion.silver.desc": "Mine Silver",
+  "advancement.progexpansion.steel.desc": "Smelt Iron into Steel",
+  "advancement.progexpansion.cobalt.desc": "Mine Cobalt",
+  "advancement.progexpansion.mythril.desc": "Mine Mythril",
+  "advancement.progexpansion.trueSilver.desc": "Mine True Silver",
+  "advancement.progexpansion.draconicSteel.desc": "Mine Draconic Steel",
+  "advancement.progexpansion.endril.desc": "Mine Endril",
+  "advancement.progexpansion.chargedEndStoneChunk.desc": "Mine Charged End Stone",
+  "advancement.progexpansion.fracturedPurpurChunk.desc": "Mine Fractured Purpur",
+  "advancement.progexpansion.adamantite.desc": "Craft Adamantite",
+
+  "advancement.progexpansion.copper.title": "A Whole New World",
+  "advancement.progexpansion.silver.title": "Silver?",
+  "advancement.progexpansion.steel.title": "What a Blast",
+  "advancement.progexpansion.cobalt.title": "#27",
+  "advancement.progexpansion.mythril.title": "Harder than Steel",
+  "advancement.progexpansion.trueSilver.title": "Silver.",
+  "advancement.progexpansion.draconicSteel.title": "Dragon Metal",
+  "advancement.progexpansion.endril.title": "Mine Endril",
+  "advancement.progexpansion.chargedEndStoneChunk.title": "Power Overwhelming",
+  "advancement.progexpansion.fracturedPurpurChunk.title": "Crack in the Wall (Flesh and Stone?)",
+  "advancement.progexpansion.adamantite.title": "OP?"
 }

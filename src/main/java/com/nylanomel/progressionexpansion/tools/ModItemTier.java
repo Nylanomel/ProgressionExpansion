@@ -9,13 +9,13 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
 
-    COPPER(2, 225, 6.5F, 1.0F, 15, () -> {
+    COPPER(2, 225, 6.2F, 1.0F, 15, () -> {
         return Ingredient.fromItems(RegistryHandler.COPPER_PICKAXE.get());
     }),
-    SILVER(2, 200, 7.0F, 1.0F, 16, () -> {
+    SILVER(2, 200, 6.4F, 1.0F, 16, () -> {
         return Ingredient.fromItems(RegistryHandler.SILVER_PICKAXE.get());
     }),
-    STEEL(3, 3021, 7.2F, 2.0F, 8, () -> {
+    STEEL(3, 3021, 6.5F, 2.0F, 8, () -> {
         return Ingredient.fromItems(RegistryHandler.STEEL_PICKAXE.get());
     }),
     COBALT(4, 1921, 9.0F, 3.0F, 20, () -> {

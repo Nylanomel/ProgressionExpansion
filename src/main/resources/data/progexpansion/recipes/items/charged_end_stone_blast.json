@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "progexpansion:charged_end_stone_chunk"
+  },
+  "result": "progexpansion:charged_end_stone_bar",
+  "experience": 3.4,
+  "cookingtime": 100
+}

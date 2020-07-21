@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "item": "progexpansion:polished_end_stone__helmet"
+    },
+    "title": {
+      "translate": "advancement.progexpansion.polished_end_stone_armor.title"
+    },
+    "description": {
+      "translate": "advancement.progexpansion.polished_end_stone_armor.desc"
+    }
+  },
+  "parent": "progexpansion:acquire_polished_end_stone_",
+  "criteria": {
+    "get_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone__helmet",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone__chestplate",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone__leggings",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone__boots",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "get_helmet",
+    "get_chestplate",
+    "get_leggings",
+    "get_boots"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

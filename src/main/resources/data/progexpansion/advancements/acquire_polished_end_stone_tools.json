@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "item": "progexpansion:polished_end_stone_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.progexpansion.polished_end_stone_tools.title"
+    },
+    "description": {
+      "translate": "advancement.progexpansion.polished_end_stone_tools.desc"
+    }
+  },
+  "parent": "progexpansion:acquire_polished_end_stone",
+  "criteria": {
+    "get_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone_helmet",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone_pickaxe",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone_shovel",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone_axe",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone_hoe",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:polished_end_stone_sword",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "get_pickaxe",
+    "get_shovel",
+    "get_axe",
+    "get_hoe",
+    "get_sword"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

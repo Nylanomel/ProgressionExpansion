@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "item": "progexpansion:silver_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.progexpansion.silver_tools.title"
+    },
+    "description": {
+      "translate": "advancement.progexpansion.silver_tools.desc"
+    }
+  },
+  "parent": "progexpansion:acquire_silver",
+  "criteria": {
+    "get_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:silver_helmet",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:silver_pickaxe",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:silver_shovel",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:silver_axe",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:silver_hoe",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:silver_sword",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "get_pickaxe",
+    "get_shovel",
+    "get_axe",
+    "get_hoe",
+    "get_sword"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

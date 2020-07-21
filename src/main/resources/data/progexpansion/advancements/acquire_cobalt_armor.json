@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "item": "progexpansion:cobalt_helmet"
+    },
+    "title": {
+      "translate": "advancement.progexpansion.cobalt_armor.title"
+    },
+    "description": {
+      "translate": "advancement.progexpansion.cobalt_armor.desc"
+    }
+  },
+  "parent": "progexpansion:acquire_cobalt",
+  "criteria": {
+    "get_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:cobalt_helmet",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:cobalt_chestplate",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:cobalt_leggings",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    },
+    "get_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "progexpansion:cobalt_boots",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "get_helmet",
+    "get_chestplate",
+    "get_leggings",
+    "get_boots"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

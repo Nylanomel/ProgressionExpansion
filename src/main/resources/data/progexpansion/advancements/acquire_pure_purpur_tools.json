@@ -12,17 +12,6 @@
   },
   "parent": "progexpansion:acquire_pure_purpur",
   "criteria": {
-    "get_helmet": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [{
-          "item": "progexpansion:pure_purpur_helmet",
-          "count": {
-            "minimum": 1
-          }
-        }]
-      }
-    },
     "get_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {

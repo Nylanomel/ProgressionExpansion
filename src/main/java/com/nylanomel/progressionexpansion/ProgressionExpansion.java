@@ -1,15 +1,12 @@
 package com.nylanomel.progressionexpansion;
 
 import com.nylanomel.progressionexpansion.util.RegistryHandler;
-import com.nylanomel.progressionexpansion.world.gen.ModOreGen;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,6 +16,8 @@ import org.apache.logging.log4j.Logger;
 public class ProgressionExpansion {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "progexpansion";
+
+
 
     public ProgressionExpansion() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

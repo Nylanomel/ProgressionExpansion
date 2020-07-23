@@ -1,11 +1,18 @@
 package com.nylanomel.progressionexpansion.blocks;
 
+import com.nylanomel.progressionexpansion.ProgressionExpansion;
+import com.nylanomel.progressionexpansion.util.RegistryHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.ToolType;
 
 public class AdamantiteBlock extends Block {
+    ResourceLocation testTagItem = new ResourceLocation(ProgressionExpansion.MOD_ID + "testtagitem");
+
     public AdamantiteBlock() {
         super(
                 Block.Properties.create(Material.IRON)

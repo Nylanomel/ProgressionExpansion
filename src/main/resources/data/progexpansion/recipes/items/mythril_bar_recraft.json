@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "progexpansion:mythril_nugget"
+    }
+  },
+  "result":
+  {
+    "item": "progexpansion:mythril_bar",
+    "count": 1
+  }
+}

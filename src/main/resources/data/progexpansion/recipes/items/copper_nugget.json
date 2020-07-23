@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "progexpansion:copper_bar"
+    }
+  ],
+  "result":
+  {
+    "item": "progexpansion:copper_nugget",
+    "count": 9
+  }
+}

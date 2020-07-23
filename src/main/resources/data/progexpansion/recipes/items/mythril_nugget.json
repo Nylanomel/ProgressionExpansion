@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "progexpansion:mythril_bar"
+    }
+  ],
+  "result":
+  {
+    "item": "progexpansion:mythril_nugget",
+    "count": 9
+  }
+}

@@ -24,21 +24,34 @@ public class RegistryHandler {
     // Items
         // Overworld
         public static final RegistryObject<Item> COPPER_BAR = ITEMS.register("copper_bar", ItemBase::new);
+        public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", ItemBase::new);
         public static final RegistryObject<Item> SILVER_BAR = ITEMS.register("silver_bar", ItemBase::new);
+        public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget", ItemBase::new);
         public static final RegistryObject<Item> STEEL_BAR = ITEMS.register("steel_bar", ItemBase::new);
+        public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", ItemBase::new);
         public static final RegistryObject<Item> GOLD_COIN = ITEMS.register("gold_coin", ItemBase::new);
         // Nether
         public static final RegistryObject<Item> COBALT_BAR = ITEMS.register("cobalt_bar", ItemBase::new);
+        public static final RegistryObject<Item> COBALT_NUGGET = ITEMS.register("cobalt_nugget", ItemBase::new);
         public static final RegistryObject<Item> MYTHRIL_BAR = ITEMS.register("mythril_bar", ItemBase::new);
+        public static final RegistryObject<Item> MYTHRIL_NUGGET = ITEMS.register("mythril_nugget", ItemBase::new);
         public static final RegistryObject<Item> TRUE_SILVER_BAR = ITEMS.register("true_silver_bar", ItemBase::new);
-        // End
+        public static final RegistryObject<Item> TRUE_SILVER_NUGGET = ITEMS.register("true_silver_nugget", ItemBase::new);
+
+    // End
         public static final RegistryObject<Item> DRACONIC_STEEL_BAR = ITEMS.register("draconic_steel_bar", ItemBase::new);
+        public static final RegistryObject<Item> DRACONIC_STEEL_NUGGET = ITEMS.register("draconic_steel_nugget", ItemBase::new);
         public static final RegistryObject<Item> ENDRIL_BAR = ITEMS.register("endril_bar", ItemBase::new);
+        public static final RegistryObject<Item> ENDRIL_NUGGET = ITEMS.register("endril_nugget", ItemBase::new);
         public static final RegistryObject<Item> CHARGED_END_STONE_CHUNK = ITEMS.register("charged_end_stone_chunk", ItemBase::new);
         public static final RegistryObject<Item> CHARGED_END_STONE_BAR = ITEMS.register("charged_end_stone_bar", ItemBase::new);
+        public static final RegistryObject<Item> CHARGED_END_STONE_NUGGET = ITEMS.register("charged_end_stone_nugget", ItemBase::new);
         public static final RegistryObject<Item> FRACTURED_PURPUR_CHUNK = ITEMS.register("fractured_purpur_chunk", ItemBase::new);
         public static final RegistryObject<Item> PURE_PURPUR_BAR = ITEMS.register("pure_purpur_bar", ItemBase::new);
+        public static final RegistryObject<Item> PURE_PURPUR_NUGGET = ITEMS.register("pure_purpur_nugget", ItemBase::new);
         public static final RegistryObject<Item> ADAMANTITE_BAR = ITEMS.register("adamantite_bar", ItemBase::new);
+        public static final RegistryObject<Item> ADAMANTITE_NUGGET = ITEMS.register("adamantite_nugget", ItemBase::new);
+
     // Blocks
         // Overworld
             // Ore

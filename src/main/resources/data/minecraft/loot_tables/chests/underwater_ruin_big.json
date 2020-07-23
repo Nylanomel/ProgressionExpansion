@@ -8,8 +8,8 @@
       "weight": 100,
       "functions": [{
         "function": "limit_count",
-          "min": 0,
-          "max": 4
+          "min": 5,
+          "max": 10
       }]
     }]
   }]

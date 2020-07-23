@@ -9,7 +9,9 @@
       "functions": [{
         "function": "limit_count",
           "min": 5,
-          "max": 10
+          "max": 10,
+          "limit": "10"
+
       }]
     }]
   }]

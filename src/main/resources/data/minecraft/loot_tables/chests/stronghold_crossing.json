@@ -9,7 +9,8 @@
       "functions": [{
         "function": "limit_count",
           "min": 0,
-          "max": 4
+          "max": 4,
+          "limit": "4"
       }]
     }]
   }]

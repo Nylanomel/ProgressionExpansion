@@ -11,11 +11,11 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("progexpansion")
+@Mod("pe")
 @Mod.EventBusSubscriber(modid = ProgressionExpansion.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ProgressionExpansion {
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "progexpansion";
+    public static final String MOD_ID = "pe";
 
 
 

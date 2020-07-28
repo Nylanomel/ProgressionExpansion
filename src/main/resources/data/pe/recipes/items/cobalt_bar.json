@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "pe:cobalt_ore"
+  },
+  "result": "pe:cobalt_bar",
+  "experience": 1.3,
+  "cookingtime": 200
+}

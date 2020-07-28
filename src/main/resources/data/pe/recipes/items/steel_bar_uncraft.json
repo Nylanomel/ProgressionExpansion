@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pe:steel_block"
+    }
+  ],
+  "result":
+  {
+    "item": "pe:steel_bar",
+    "count": 9
+  }
+}

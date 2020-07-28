@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:ingots/true_silver"
+    }
+  },
+  "result":
+  {
+    "item": "pe:true_silver_chestplate",
+    "count": 1
+  }
+}

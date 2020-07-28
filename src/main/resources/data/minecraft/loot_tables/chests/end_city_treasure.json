@@ -1,15 +1,19 @@
 {
+  "replace": false,
   "pools": [{
     "name": "main",
     "rolls": 1,
     "entries": [{
       "type": "item",
-      "name": "progexpansion:gold_coin",
+      "name": "pe:gold_coin",
       "weight": 100,
       "functions": [{
-        "function": "limit_count",
-          "min": 0,
-          "max": 4
+        "function": "set_count",
+        "count": {
+          "min": 1.0,
+          "max": 4.0,
+          "type": "minecraft:uniform"
+        }
       }]
     }]
   }]

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pe:polished_charged_end_stone"
+    }
+  ],
+  "result":
+  {
+    "item": "pe:charged_end_stone_bar",
+    "count": 9
+  }
+}

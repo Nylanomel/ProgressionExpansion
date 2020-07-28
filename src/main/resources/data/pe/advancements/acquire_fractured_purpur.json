@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "pe:fractured_purpur_chunk"
+    },
+    "title": {
+      "translate": "advancement.pe.fracturedPurpurChunk.title"
+    },
+    "description": {
+      "translate": "advancement.pe.fracturedPurpurChunk.desc"
+    }
+  },
+  "parent": "pe:acquire_charged_end_stone_chunk",
+  "criteria": {
+    "mine_fractured_purpur": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "pe:fractured_purpur_chunk",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "mine_fractured_purpur"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

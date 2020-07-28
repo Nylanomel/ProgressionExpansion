@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pe:blocks/pure_purpur_block"
+  }
+}

@@ -11,8 +11,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.ToolType;
 
 public class AdamantiteBlock extends Block {
-    ResourceLocation testTagItem = new ResourceLocation(ProgressionExpansion.MOD_ID + "testtagitem");
-
     public AdamantiteBlock() {
         super(
                 Block.Properties.create(Material.IRON)

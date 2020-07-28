@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:ingots/pure_purpur"
+    }
+  },
+  "result":
+  {
+    "item": "pe:pure_purpur_chestplate",
+    "count": 1
+  }
+}

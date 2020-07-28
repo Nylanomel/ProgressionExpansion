@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "progexpansion:mythril_ore"
-  },
-  "result": "progexpansion:mythril_bar",
-  "experience": 1.7,
-  "cookingtime": 100
-}

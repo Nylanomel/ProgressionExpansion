@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pe:blocks/cobalt_ore_top",
+    "side": "pe:blocks/cobalt_ore_side"
+  }
+}

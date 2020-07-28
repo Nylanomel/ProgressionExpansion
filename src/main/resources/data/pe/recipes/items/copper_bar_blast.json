@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pe:copper_ore"
+  },
+  "result": "pe:copper_bar",
+  "experience": 0.5,
+  "cookingtime": 100
+}

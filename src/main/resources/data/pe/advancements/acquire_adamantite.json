@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "pe:adamantite_bar"
+    },
+    "title": {
+      "translate": "advancement.pe.adamantite.title"
+    },
+    "description": {
+      "translate": "advancement.pe.adamantite.desc"
+    }
+  },
+  "parent": "pe:acquire_fractured_purpur",
+  "criteria": {
+    "mine_adamantite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "pe:adamantite_bar",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "mine_adamantite"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

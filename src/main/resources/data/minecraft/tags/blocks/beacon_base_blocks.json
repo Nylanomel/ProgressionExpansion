@@ -1,16 +1,16 @@
 {
   "replace": false,
   "values": [
-    "progexpansion:copper_block",
-    "progexpansion:silver_block",
-    "progexpansion:steel_block",
-    "progexpansion:cobalt_block",
-    "progexpansion:mythril_block",
-    "progexpansion:true_silver_block",
-    "progexpansion:draconic_steel_block",
-    "progexpansion:endril_block",
-    "progexpansion:polished_charged_end_stone",
-    "progexpansion:pure_purpur_block",
-    "progexpansion:adamantite_block"
+    "pe:copper_block",
+    "pe:silver_block",
+    "pe:steel_block",
+    "pe:cobalt_block",
+    "pe:mythril_block",
+    "pe:true_silver_block",
+    "pe:draconic_steel_block",
+    "pe:endril_block",
+    "pe:polished_charged_end_stone",
+    "pe:pure_purpur_block",
+    "pe:adamantite_block"
   ]
 }

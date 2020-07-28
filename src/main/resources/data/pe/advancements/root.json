@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pe:copper_bar"
+    },
+    "title": {
+      "translate": "itemGroup.progExpansion"
+    },
+    "description": {
+      "translate": "advancement.pe.root.desc"
+    },
+    "background": "pe:textures/blocks/copper_ore.png",
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "load_world": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld"
+      }
+    }
+  },
+  "requirements": [[
+    "load_world"
+  ]]
+}

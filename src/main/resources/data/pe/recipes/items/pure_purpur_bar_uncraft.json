@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pe:pure_purpur_block"
+    }
+  ],
+  "result":
+  {
+    "item": "pe:pure_purpur_bar",
+    "count": 9
+  }
+}

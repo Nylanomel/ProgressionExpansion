@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "pe:copper_bar"
+    },
+    "title": {
+      "translate": "advancement.pe.copper.title"
+    },
+    "description": {
+      "translate": "advancement.pe.copper.desc"
+    }
+  },
+  "parent": "pe:root",
+  "criteria": {
+    "mine_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "pe:copper_ore",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "mine_copper"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

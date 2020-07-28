@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "pe:draconic_steel_nugget"
+    }
+  },
+  "result":
+  {
+    "item": "pe:draconic_steel_bar",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pe:draconic_steel_bar"
+    }
+  ],
+  "result":
+  {
+    "item": "pe:draconic_steel_nugget",
+    "count": 9
+  }
+}

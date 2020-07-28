@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "pe:cobalt_bar"
+    },
+    "title": {
+      "translate": "advancement.pe.cobalt.title"
+    },
+    "description": {
+      "translate": "advancement.pe.cobalt.desc"
+    }
+  },
+  "parent": "pe:acquire_steel",
+  "criteria": {
+    "mine_cobalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "pe:cobalt_ore",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "mine_cobalt"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

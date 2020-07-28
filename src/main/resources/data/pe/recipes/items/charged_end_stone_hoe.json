@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    " y",
+    " y"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:ingots/charged_end_stone"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "pe:charged_end_stone_hoe",
+    "count": 1
+  }
+}

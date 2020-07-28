@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:ingots/cobalt"
+    }
+  },
+  "result":
+  {
+    "item": "pe:cobalt_chestplate",
+    "count": 1
+  }
+}

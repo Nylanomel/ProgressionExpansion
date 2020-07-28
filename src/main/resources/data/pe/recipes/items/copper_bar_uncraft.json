@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "progexpansion:copper_block"
+    }
+  ],
+  "result":
+  {
+    "item": "pe:copper_bar",
+    "count": 9
+  }
+}

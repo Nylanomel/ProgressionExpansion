@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "pe:silver_bar"
+    },
+    "title": {
+      "translate": "advancement.pe.silver.title"
+    },
+    "description": {
+      "translate": "advancement.pe.silver.desc"
+    }
+  },
+  "parent": "pe:acquire_copper",
+  "criteria": {
+    "mine_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "pe:silver_ore",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "mine_silver"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

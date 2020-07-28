@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "pe:true_silver_ore"
+  },
+  "result": "pe:true_silver_bar",
+  "experience": 2.0,
+  "cookingtime": 200
+}

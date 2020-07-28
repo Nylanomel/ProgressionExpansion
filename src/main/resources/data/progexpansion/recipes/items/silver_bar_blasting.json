@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "progexpansion:silver_ore"
-  },
-  "result": "progexpansion:silver_bar",
-  "experience": 0.7,
-  "cookingtime": 100
-}

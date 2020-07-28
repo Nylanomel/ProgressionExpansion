@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pe:endril_ore"
+  },
+  "result": "pe:endril_bar",
+  "experience": 2.8,
+  "cookingtime": 100
+}

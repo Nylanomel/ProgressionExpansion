@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "progexpansion:cobalt_ore"
-  },
-  "result": "progexpansion:cobalt_bar",
-  "experience": 1.3,
-  "cookingtime": 200
-}

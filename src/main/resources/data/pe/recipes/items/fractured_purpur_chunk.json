@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pe:fractured_purpur_block"
+    }
+  ],
+  "result":
+  {
+    "item": "pe:fractured_purpur_chunk",
+    "count": 4
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "progexpansion:copper_ore"
-  },
-  "result": "progexpansion:copper_bar",
-  "experience": 0.5,
-  "cookingtime": 200
-}

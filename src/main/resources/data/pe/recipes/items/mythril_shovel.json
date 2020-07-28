@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "y",
+    "y"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:ingots/mythril"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "pe:mythril_shovel",
+    "count": 1
+  }
+}

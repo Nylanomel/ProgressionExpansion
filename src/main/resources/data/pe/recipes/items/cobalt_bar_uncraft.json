@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pe:cobalt_block"
+    }
+  ],
+  "result":
+  {
+    "item": "pe:cobalt_bar",
+    "count": 9
+  }
+}

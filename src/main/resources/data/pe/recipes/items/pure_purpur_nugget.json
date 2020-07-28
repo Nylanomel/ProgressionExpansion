@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "progexpansion:pure_purpur_bar"
+    }
+  ],
+  "result":
+  {
+    "item": "pe:pure_purpur_nugget",
+    "count": 9
+  }
+}

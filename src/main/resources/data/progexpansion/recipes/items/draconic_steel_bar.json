@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "progexpansion:draconic_steel_ore"
-  },
-  "result": "progexpansion:draconic_steel_bar",
-  "experience": 2.4,
-  "cookingtime": 200
-}

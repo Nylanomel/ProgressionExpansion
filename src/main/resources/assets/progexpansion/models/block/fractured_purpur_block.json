@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "progexpansion:blocks/fractured_purpur_block"
-  }
-}

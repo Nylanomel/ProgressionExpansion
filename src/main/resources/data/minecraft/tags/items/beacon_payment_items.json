@@ -1,16 +1,16 @@
 {
   "replace": false,
   "values": [
-    "progexpansion:copper_bar",
-    "progexpansion:silver_bar",
-    "progexpansion:steel_bar",
-    "progexpansion:cobalt_bar",
-    "progexpansion:mythril_bar",
-    "progexpansion:true_silver_bar",
-    "progexpansion:draconic_steel_bar",
-    "progexpansion:endril_bar",
-    "progexpansion:charged_end_stone_bar",
-    "progexpansion:pure_purpur_bar",
-    "progexpansion:adamantite_bar"
+    "pe:copper_bar",
+    "pe:silver_bar",
+    "pe:steel_bar",
+    "pe:cobalt_bar",
+    "pe:mythril_bar",
+    "pe:true_silver_bar",
+    "pe:draconic_steel_bar",
+    "pe:endril_bar",
+    "pe:charged_end_stone_bar",
+    "pe:pure_purpur_bar",
+    "pe:adamantite_bar"
   ]
 }

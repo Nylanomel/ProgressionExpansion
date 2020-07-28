@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "pe:charged_end_stone_chunk"
+    },
+    "title": {
+      "translate": "advancement.pe.chargedEndStoneChunk.title"
+    },
+    "description": {
+      "translate": "advancement.pe.chargedEndStoneChunk.desc"
+    }
+  },
+  "parent": "pe:acquire_endril",
+  "criteria": {
+    "mine_chargedEndStoneChunk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "pe:charged_end_stone_chunk",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "mine_chargedEndStoneChunk"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

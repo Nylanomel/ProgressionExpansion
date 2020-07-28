@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "progexpansion:copper_block"
+    "pe:copper_block"
   ]
 }

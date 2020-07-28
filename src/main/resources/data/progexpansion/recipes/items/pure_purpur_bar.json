@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "progexpansion:fractured_purpur_chunk"
-  },
-  "result": "progexpansion:pure_purpur_bar",
-  "experience": 4.4,
-  "cookingtime": 200
-}

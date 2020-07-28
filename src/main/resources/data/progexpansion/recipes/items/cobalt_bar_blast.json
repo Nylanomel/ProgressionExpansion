@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "progexpansion:cobalt_ore"
-  },
-  "result": "progexpansion:cobalt_bar",
-  "experience": 3.4,
-  "cookingtime": 100
-}

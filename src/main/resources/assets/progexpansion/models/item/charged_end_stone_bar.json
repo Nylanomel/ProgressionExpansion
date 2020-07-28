@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "progexpansion:items/charged_end_stone_bar"
-  }
-}

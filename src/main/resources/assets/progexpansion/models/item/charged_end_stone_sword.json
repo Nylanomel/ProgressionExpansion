@@ -1,7 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "progexpansion:items/charged_end_stone_sword"
-  }
-
-}

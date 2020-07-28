@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "forge:ingots/silver"
+    }
+  },
+  "result":
+  {
+    "item": "progexpapension:silver_leggings",
+    "count": 1
+  }
+}

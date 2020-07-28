@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "progexpansion:blocks/cobalt_ore_top",
-    "side": "progexpansion:blocks/cobalt_ore_side"
-  }
-}

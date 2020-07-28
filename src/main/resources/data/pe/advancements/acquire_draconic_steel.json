@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "pe:draconic_steel_bar"
+    },
+    "title": {
+      "translate": "advancement.pe.draconicSteel.title"
+    },
+    "description": {
+      "translate": "advancement.pe.draconicSteel.desc"
+    }
+  },
+  "parent": "pe:acquire_true_silver",
+  "criteria": {
+    "mine_draconic_steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "pe:draconic_steel_ore",
+          "count": {
+            "minimum": 1
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [[
+    "mine_draconic_steel"
+  ]],
+  "rewards": {
+    "experience": 25
+  }
+}

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "progexpansion:copper_block"
+      "item": "pe:copper_block"
     }
   ],
   "result":

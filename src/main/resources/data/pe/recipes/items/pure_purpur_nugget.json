@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "progexpansion:pure_purpur_bar"
+      "item": "pe:pure_purpur_bar"
     }
   ],
   "result":

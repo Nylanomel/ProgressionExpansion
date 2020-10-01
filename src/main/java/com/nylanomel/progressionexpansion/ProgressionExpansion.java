@@ -17,8 +17,6 @@ public class ProgressionExpansion {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "pe";
 
-
-
     public ProgressionExpansion() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
